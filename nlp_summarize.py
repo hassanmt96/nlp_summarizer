@@ -1,9 +1,12 @@
+from nltk.corpus import stopwords
 from collections import Counter
 import re
 import requests
 import bs4
 import nltk
-from nltk.corpus import stop_words
+
+# resolve import issue for nltk, not showing currently.
+nltk.download('stopwords')
 
 
 def main():
